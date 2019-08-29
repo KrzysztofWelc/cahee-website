@@ -1,0 +1,37 @@
+.section5 {
+  min-height: 65vh;
+  width: 100%;
+  background-image: url("../assets/img/s5bcg.png");
+  background-position-y: right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  padding: $padding;
+  p {
+    width: 50%;
+  }
+  h2 {
+    font-size: 40px;
+    margin: 0;
+  }
+  form {
+    width: 60%;
+    input {
+      border: 1px solid $gray;
+      font: inherit;
+      padding: 0.5rem;
+      width: 50%;
+    }
+    button {
+      font: inherit;
+      color: $white;
+      background-color: $green;
+      border: 0;
+      box-shadow: $shadow;
+      padding: 0.5rem 2rem;
+      margin-left: 1rem;
+    }
+  }
+}

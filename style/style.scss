@@ -1,0 +1,32 @@
+@import "mixins/_variables.scss";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font: 17px/1.6 "Raleway", sans-serif;
+  color: $mainTextCol;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 770px) {
+  html,
+  body {
+    font-size: 14px;
+  }
+}
+
+@import "mixins/sections/section1.scss";
+@import "mixins/sections/section2.scss";
+@import "mixins/sections/section3.scss";
+@import "mixins/sections/section4.scss";
+@import "mixins/sections/section5.scss";
+@import "mixins/sections/section7.scss";
+@import "mixins/sections/footer.scss";
+@import "mixins/rwd/section1.scss";
+@import "mixins/rwd/section2.scss";
+@import "mixins/rwd/section3.scss";
+@import "mixins/rwd/section4.scss";
+@import "mixins/rwd/section5.scss";
+@import "mixins/rwd/section7.scss";
+@import "mixins/rwd/footer.scss";

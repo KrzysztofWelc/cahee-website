@@ -1,0 +1,41 @@
+@media only screen and (max-width: 770px) {
+  .section1 {
+    header {
+      .menu-toggle {
+        display: inline;
+      }
+      nav {
+        display: none;
+        ul {
+          position: absolute;
+          max-height: 0;
+          right: 2rem;
+          flex-direction: column;
+          li {
+            padding: 0.3rem;
+            background-color: rgba(255, 255, 255, 0.61);
+          }
+        }
+      }
+      .active {
+        display: block;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .section1 {
+    .info {
+      text-align: center;
+      margin: auto;
+      h2 {
+        font-size: 40px;
+      }
+      button {
+        padding: 0.75rem;
+        font-size: 15px;
+      }
+    }
+  }
+}

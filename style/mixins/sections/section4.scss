@@ -1,0 +1,31 @@
+.section4 {
+  background-color: $yellow;
+  text-align: center;
+  padding: $padding;
+  padding-bottom: 2rem;
+  h2 {
+    font-size: 90px;
+    margin: 0;
+  }
+  p {
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+  .gallery {
+    img {
+      box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+    }
+  }
+  button {
+    border: 0;
+    background-color: #5585a2;
+    font: inherit;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $white;
+    padding: 1rem 2rem;
+    margin-top: 2rem;
+    box-shadow: $shadow;
+  }
+}

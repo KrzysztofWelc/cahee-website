@@ -1,0 +1,10 @@
+.footer {
+  background-color: $dark_gray;
+  padding: $padding;
+  display: flex;
+  justify-content: space-between;
+  color: #b9b9b9;
+  .love {
+    color: $pink;
+  }
+}

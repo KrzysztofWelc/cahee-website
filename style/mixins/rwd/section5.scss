@@ -1,0 +1,29 @@
+@media only screen and (max-width: 625px) {
+  .section5 {
+    p {
+      width: 100%;
+    }
+    form {
+      width: 100%;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .section5 {
+    align-items: center;
+    h2 {
+      text-align: center;
+    }
+    form {
+      text-align: center;
+      input {
+        width: 80%;
+        display: inline-block;
+      }
+      button {
+        display: inline-block;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.section7 {
+  padding: $padding;
+  background-image: url("../assets/img/s7bcg.jpg");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 100vh;
+  // width: 100%;
+  background-position: bottom;
+  h2 {
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    width: 50%;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    form {
+      display: flex;
+      flex-direction: column;
+      width: 45%;
+      input,
+      textarea {
+        background-color: $form-color2;
+        color: $white;
+        padding: 1rem;
+        border: 0;
+        margin-bottom: 0.5rem;
+        font: inherit;
+        font-size: 17px;
+      }
+      input:focus,
+      textarea:focus {
+        background-color: $form-color1;
+        border-left: 5px solid $dark_blue;
+      }
+    }
+    .contact {
+      width: 45%;
+    }
+  }
+}
