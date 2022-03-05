@@ -2,13 +2,20 @@
   "homepage": "https://KrzysztofWelc.github.io/cahee-website",
   "name": "cahee",
   "version": "1.0.0",
-  "main": "index.js",
+  "source": "index.html",
   "license": "MIT",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "start": "parcel",
+    "build": "parcel build"
   },
   "dependencies": {
-    "gh-pages": "^2.1.1",
-    "macy": "^2.5.0"
+    "global": "^4.4.0",
+    "macy": "^2.5.0",
+    "rollup": "^2.69.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.3.2",
+    "parcel": "^2.3.2",
+    "parcel-plugin-nuke-dist": "^1.0.1"
   }
 }
